@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct SharedConstants {
+    static var shared = SharedConstants(products: [])
+    
+    var products: [Products]?
+
+    
+}
